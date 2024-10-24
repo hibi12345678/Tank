@@ -23,8 +23,9 @@ ScriptsOnlyBuild:
     PlayFab:
     - PlayFabSharedSettings
     PlayFabEditorExtensions.dll:
-    - PlayFab.PfEditor.PlayFabEditor
     - PlayFab.PfEditor.PlayFabEditorPrefsSO
+    Unity.AI.Navigation.Editor.dll:
+    - Unity.AI.Navigation.Editor.NavMeshAssetManager
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
     Unity.Rider.Editor.dll:
@@ -325,6 +326,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5262}
     - Class: 114
       Script: {instanceID: 5540}
+    - Class: 114
+      Script: {instanceID: 5740}
     - Class: 114
       Script: {instanceID: 5856}
     - Class: 114
