@@ -28,7 +28,7 @@ public class SceneChange : MonoBehaviour
     public void LordScene()
     {
 
-        Debug.Log("a");
+        
         if (currentSceneName == "StartScene")
         {
             Invoke("ChangeScene", 1.5f);
