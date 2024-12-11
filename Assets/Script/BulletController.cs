@@ -46,13 +46,13 @@ public class BulletController : MonoBehaviour
 	{
 
 		//’e‚Ì”­ŽË
-		if (Input.GetMouseButtonDown(0) && flag == true)
+		if (Input.GetMouseButtonDown(0) && flag == true && Time.timeScale != 0f)
 		{
 			    
 
 			if (count < 5 && reloadTime <= 0.0f)
 			{
-				//AudioSourceŒ^‚ª“ü‚Á‚Ä‚¢‚é•Ï”a‚ðÄ¶
+				//AudioSourceŒ^‚ª“ü‚Á‚Ä‚¢‚é•Ï”‚ðÄ¶
 				secondAudioSource.Play();
 				// ’e‚ð”­ŽË‚·‚éêŠ‚ðŽæ“¾
 				Vector3 bulletPosition = firingPoint.transform.position;

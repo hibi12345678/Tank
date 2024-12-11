@@ -18,5 +18,6 @@ public class PauseScript : MonoBehaviour
         yield return new WaitForSecondsRealtime(pauseTime);
 
         Time.timeScale = 1f; // ŠÔ‚ğ’Êí‘¬“x‚É–ß‚·
+
     }
 }

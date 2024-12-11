@@ -49,12 +49,12 @@ public class SceneChange : MonoBehaviour
         if (currentSceneName == "StartScene")
         {
             SceneManager.LoadScene("BetweenScene");
-
+    
         }
         else
         {
-            
             SceneManager.LoadScene("StartScene");
+
         }
     }
   

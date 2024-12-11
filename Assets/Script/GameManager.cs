@@ -325,8 +325,7 @@ public class GameManager : MonoBehaviour
             {
                 randomX = Random.Range(minX1, maxX1);
                 randomZ = Random.Range(minZ1, maxZ1);
-                Debug.Log(randomX);
-                Debug.Log(randomZ);
+
 
             }
             else if (range == 1)

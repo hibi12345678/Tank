@@ -22,7 +22,7 @@ public class MouseKasoru: MonoBehaviour
         target = new Vector3(mouse.x, mouse.y, 10);
         this.transform.position = target;
 
-        if (Input.GetKeyDown(KeyCode.Escape) || currentScene.name == "StartScene" )
+        if (currentScene.name == "StartScene" )
         {
             Cursor.visible = true;
         }
