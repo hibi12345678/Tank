@@ -16,4 +16,4 @@
  - Visual Studio 2019
 
 ## 実行方法
-[Tank](,/Tank)フォルダ内にある、Tank!.exeを実行することでプレイできます。
+[Tank](Tank/)フォルダ内にある、Tank!.exeを実行することでプレイできます。
