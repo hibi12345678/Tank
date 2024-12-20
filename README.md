@@ -12,6 +12,8 @@
  - Esc:メニュー
 
 ## 制作環境
-
  - Unity 2022.3.24f1 (LTS)
  - Visual Studio 2019
+
+## 実行方法
+[Tank](,/Tank)フォルダ内にある、Tank!.exeを実行することでプレイできます。
